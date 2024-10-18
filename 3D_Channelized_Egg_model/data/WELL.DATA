@@ -1,0 +1,32 @@
+
+
+--****************                          ******************
+--****************  Define Well Data Below  ******************
+--****************                          ******************
+
+
+WELSPEC
+--  (BHP/RATE) (psi/bbl/Mscf) (Inj -> WAT/GAS, Prd -> ORAT/GRAT/LRAT)
+-- INJ/PRD  coord X*Y/  Z-Z/ Diameter/ Skin/ Condition/   Value/   Target/
+--
+      PRD1   29   28    1 2      0.656  0.0        BHP    4353.4	ORAT	/
+	  INJ1   43   35    1 2      0.656  0.0        BHP    7255.7	WAT		/
+	  INJ2   45   3     1 2      0.656  0.0        BHP    7255.7	WAT		/
+	  INJ3   6    39    1 2      0.656  0.0        BHP    7255.7	WAT		/
+	  INJ4   18   6     1 2      0.656  0.0        BHP    7255.7	WAT		/
+	  INJ5   46   22    1 2      0.656  0.0        BHP    7255.7	WAT		/
+	  PRD2   33   20    1 2      0.656  0.0        BHP    4353.4	ORAT	/
+	  PRD3   28   16    1 2      0.656  0.0        BHP    4353.4	ORAT	/
+	  PRD4   22   42    1 2      0.656  0.0        BHP    4353.4	ORAT	/
+	  INJ6   5    56    1 2      0.656  0.0        BHP    7255.7	WAT		/
+
+/
+
+      
+TSTEP
+1*30
+/
+
+
+END
+
